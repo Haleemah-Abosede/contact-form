@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    padding: 3em 9em;
+   
+}
+
+.main h2{
+ font-family: 'Halant', serif;
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 150%;
+color: #000000;
+letter-spacing: 0.005em;
+margin-bottom: 1rem;
+}
+
+.con-form form label{
+    font-family: 'Halant', serif;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 24px;
+color: #000000;
+ cursor: pointer;
+ display:inline-block;
+width: 320px;
+}
+
+.form-box{
+    width: 60%;
+    padding: 1em;
+    margin: 1rem 0;
+    overflow: hidden;
+    outline: none;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    height: 56px;
+    
+}
+
+.element{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+::placeholder{
+font-family: 'Manrope' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #797979;
+}
+
+.gender{
+    margin-bottom: 3rem;
+}
+.skill{
+    margin-bottom: 1.5rem;
+}
+.gender, .skill{
+    display: flex;
+    align-items: center;
+}
+
+.gender #gender-option, .skill #skill-options{
+    display: flex;
+    gap: 2rem;
+}
+
+
+.con-form form .gender #gender-option label, .con-form form .skill #skill-options label{
+    font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+width: -moz-fit-content;
+width: fit-content;
+margin-left: .3rem;
+}
+
+
+.button{
+    display: flex;
+     /* justify-content: flex-end;
+     align-items: flex-end;  */
+}
+
+input[type = "button"]{
+    width: 60%;
+    border: none;
+    outline: none;
+    background: #155EEF;
+    border-radius: 4px;
+   font-family: 'Manrope' sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+    color: #FFFFFF;
+    height: 56px;
+    margin-top: 1rem;
+}
+
+
+select{
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("Vector.png");
+    background-repeat: no-repeat;
+    background-position: 90%;
+    font-family: 'Manrope' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+select option{
+    color: #000;
+}
+select:invalid, select option[value=""]{
+    color: #797979;
+}

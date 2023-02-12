@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <h2>Contact Form</h2>
+    </div>
+    <div class="con-form">
+        <form action="#">
+           <div class="element">
+            <label for="name">Name:</label>
+            <input class="form-box" type="text" name="f-name" id="f-name" placeholder="Enter your Name">
+           </div>
+            <br>
+           <div class="element">
+            <label for="name">Username:</label>
+            <input class="form-box" type="text" name="username" id="username" placeholder="Enter your Username">
+           </div>
+    <br>
+           <div class="element">
+            <label for="name">Password:</label>
+            <input class="form-box" type="password" name="password" id="password" placeholder="Enter your Password">
+           </div>
+    <br>
+          <div class="element">
+            <label for="name">Re-type Password:</label>
+            <input class="form-box" type="password" name="password" id="c-password" placeholder="Enter your Password">
+          </div>
+    <br>
+            <div class="gender">
+            <label for="name">Gender:</label>
+            <div id="gender-option">
+                <div class="one"> <input type="radio" name="gender-choice" value="choice-1">
+                    <label for="male">Male</label></div>
+               <div class="one"> <input type="radio" name="gender-choice" value="choice-2"
+                ><label for="female">Female</label></div>
+            </div>
+            </div>
+ 
+            <div class="skill">
+                <label for="name">Techie Skill:</label>
+
+                <div id="skill-options">
+               <div class="two">
+                <input type="checkbox" id="html" value="html" name="skill">
+                <label for="html">HTML</label>
+               </div>
+  
+             <div class="two">
+                <input type="checkbox" id="css" value="css" name="skill">
+                <label for="html">CSS</label>
+             </div>
+        
+             <div class="two">
+                <input type="checkbox" id="javascript" value="javascript" name="skill"><label for="html">JavaScript</label>
+             </div>
+                </div>
+    
+          </div>
+    
+           <div class="element">
+            <label for="name">Phone Number:</label>
+            <input type="tel" name="username" class="form-box" id="number" placeholder="Enter your address">
+           </div>
+    <br>
+            <div class="element">
+                <label for="name">Email:</label>
+            <input type="email" class="form-box" name="username" id="email" placeholder="Enter your Email address">
+            </div>
+    <br>
+            <div class="element">
+                <label for="name">College:</label>
+            <select required name="college" id="college"  class="form-box">
+                <option value="" selected disabled class="grey">Select a College</option>
+                <option value="1">I4GxZuri</option>
+                <option value="2">AltSchool</option>
+                <option value="3">Malhub</option>
+                <option value="4">Just Project</option>
+                <option value="5">AptLearn</option>
+                <option value="6">Side Hustle</option>
+            </select>
+            </div>
+            <div class="button">
+                <label for=""></label>
+            <input type="button" value="Submit">
+        </div>
+        </form>
+    </div>
+    
+</body>
+</html>
